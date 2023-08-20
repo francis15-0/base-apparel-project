@@ -77,4 +77,18 @@ img{
    height: 40px;
    border-radius: 25px;
    border: 1px solid hsl(0, 93%, 68%);
+   font-size: 16px;
+   text-indent: 20px;
+}
+.email::placeholder{
+    font-family: 'Josefin Sans', sans-serif;
+    
+}
+
+.email:focus{
+    font-family: 'Josefin Sans', sans-serif;
+    border: 1px solid hsl(0, 93%, 68%);
+    outline: none;
+    
+    
 }
