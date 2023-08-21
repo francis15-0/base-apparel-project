@@ -12,7 +12,7 @@ h2{
     font-weight: 300;
     font-size: 48px;
     letter-spacing: 16px;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
     
 }
 body{
@@ -69,7 +69,7 @@ img{
     font-size: 16px;
     color: hsl(0, 36%, 70%);
     line-height: 25px;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
 }
 
 .email{
@@ -103,6 +103,7 @@ img[alt="error"]{
     position: absolute;
     right: 75px;
     top: 10px;
+    display: none;
 } 
 
 button{
@@ -113,9 +114,21 @@ button{
     border-radius: 20px;
     border: 1px hsl(0, 93%, 68%);
     background-image: linear-gradient(105deg, hsl(0, 100%, 98%), hsl(0, 93%, 68%));
+    
 
+}
+
+img[alt="hello"]{
+    width: 19px;
+    height: 15px;
 }
 
 .error{
     display: none;
+}
+
+img[alt="logo"]{
+    width: 130px;
+    height: 25px;
+    margin-bottom: 70px;
 }
