@@ -32,9 +32,9 @@
           Add your email below to stay up-to-date with announcements and our launch deals.
         </p>
         <div class="email-container">
-         <input class="email" type="email" required placeholder="Email Address">
-          <img src="images/icon-error.svg" alt="error">
-         <button>
+         <input name="email" class="email" type="email" required placeholder="Email Address">
+          <img src="images/icon-error.svg" alt="error" class="error" id="err">
+         <button class="submit" onclick="validate()">
           <img src="images/greater-than.png" alt="hello">
          </button>
         </div>
@@ -48,6 +48,6 @@
   </wrapper>
   
 
- 
+ <script src="script.js"></script>
 </body>
 </html>
