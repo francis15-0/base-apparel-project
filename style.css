@@ -35,8 +35,7 @@ span{
     height: 600px;
     display: flex;
     flex-direction: row;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
-    
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;  
 }
 
 .left-flex{
@@ -95,6 +94,7 @@ img{
 
 .email-container{
     position: relative;
+    
 }
 
 img[alt="error"]{
@@ -131,4 +131,8 @@ img[alt="logo"]{
     width: 130px;
     height: 25px;
     margin-bottom: 70px;
+}
+#error-text{
+    color:  hsl(0, 36%, 70%);
+    margin-top: 10px;
 }
