@@ -27,7 +27,7 @@ Users should be able to:
 ### Links
 
 
-- Live Site URL: [Add live site URL here](https://francis15-0.github.io/base-apparel-project/)
+- Live Site URL: (https://francis15-0.github.io/base-apparel-project/)
 
 ## My process
 
